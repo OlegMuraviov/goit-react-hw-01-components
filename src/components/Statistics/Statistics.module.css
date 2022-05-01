@@ -1,0 +1,39 @@
+.statistics {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.title {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.stat-list {
+display: flex;
+margin: 0 auto;
+padding: 0;
+width: 100%;
+list-style: none;
+}
+.item{
+    width: 100%;
+    padding: 10px 2px;    
+    
+    
+}
+.item:first-child{
+    border-bottom-left-radius: 5px;
+}
+.item:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.label {
+    display: block;
+}
+
+.persentage {
+    display: block;
+}
